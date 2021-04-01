@@ -6,7 +6,7 @@ The solution for the *Q1.txt* is contained within the *q1.py* file.
 2. Create a virtual environment. There are no external libraries used
 3. Activate your virtual environment and type
    > python q1.py
-4. The output of the Step 3 above gets saved to [test_files_q1/Q1-1.csv](test_files_q1/Q1-1.csv)
+4. The output of the Step 3 above gets saved to [Q1-1.csv](Q1-1.csv)
 
 # ASSUMPTIONS MADE FOR OUTPUT RESULTS
 1. The [CSV output](test_files_q1/Q1-1.csv) has a header: *Short-code,Number-of-sessions*
