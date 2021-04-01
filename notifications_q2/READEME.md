@@ -1,0 +1,20 @@
+# Q2.txt
+The solution for the *Q2.txt* is contained within the *q2.sh* file.
+
+# HOW TO RUN q2.sh
+Type:
+`source q2.sh notifications_q2/notifications.log`
+
+Where *source q2.sh notifications_q2/notifications.log* is the name of the `path/file-name` that we intend to 
+extract the logs from.
+> I decided to make it dynamic  enough so that any file name can be passed to it. So, I had to avoid hard coding it.
+
+# DECISIONS TAKEN
+1. Within the *Q2.txt* file, there is an example of a notification given.
+2. I decided to extract only that type of notification out of the log file and then process it to get 
+the desired results.
+3. I experimented with `cut`, `awk`, `sed`, `read` and `echo` within the bash script before finally settling with
+the solution I am presenting. And it is done in `python`.
+4. I have ensured that it is properly formatted so that it will not overflow into the screen and one would have
+to scroll to the RHS (Right Hand Side) to see what the code contains
+   
