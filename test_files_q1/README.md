@@ -3,8 +3,8 @@ The solution for the *Q1.txt* is contained within the *q1.py* file.
 
 # HOW TO RUN q1.py
 1. Python version used *Python 3.8.8*: Due to f-string usage, this project isn't meant to be run on Python 2
-2. Create a virtual environment. There are no external libraries used
-3. Activate your virtual environment and type
+2. Create and activate a virtual environment for this project as there are no external libraries used
+3. Type
    > python q1.py
 4. The output of the Step 3 above gets saved to [Q1-1.csv](Q1-1.csv)
 
@@ -14,5 +14,5 @@ The solution for the *Q1.txt* is contained within the *q1.py* file.
 3. For Account transfers, the dialled string is of format `SHORTCODE*AMOUNT*10-digit-number`
 
 # DECISIONS TAKEN FOR AIRTIME/ACCOUNT PURCHASES DIALLED STRING
-I did notice that the data varies a lot so I had to stick to the requirement, and to get the airtime purchases,
-I resorted to using the caputred `short_code` that is already in the file.
+I did notice that the data varies a lot, so I had to stick to the requirement. To get the airtime purchases,
+I resorted to using the captured `short_code` that is already in the file.
