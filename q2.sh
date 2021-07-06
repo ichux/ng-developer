@@ -24,3 +24,4 @@ print(f'talktime: {tt}')" | /usr/bin/env python3
 
 # echo "`awk '{printf "%s\\n", $0}' pinned.py`" | /usr/bin/env python3
 # HOW TO RUN: source q2.sh notifications_q2/notifications.log
+# https://stackoverflow.com/questions/1450393/how-do-you-read-from-stdin
